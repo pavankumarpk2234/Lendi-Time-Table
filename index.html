@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="icon" type="image/png" sizes="16x16" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1zmgZAIG3WAfTe3cTzAZVOt0OlVA7n1BS8nnMrKJcbkSfCAb9-doXZIXK9tRF-WHR4tqgPLKJ3JBmiTZw6xNzOuc_XZ7cx1RFfzEdJKb9xIhlWHE2JujyAG6LK2kSp3q7mkv9Jk8ENUQmI-7nw8ik02bzw6xTsQBm42mI3_C_NKQeKIrVlFaIBc9LDzk/s1600/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -71,13 +72,39 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Profile</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body">
-          This is some placeholder content to show a vertically centered modal. We've added some extra copy here to show how vertically centering the modal works when combined with scrollable modals. We also use some repeated line breaks to quickly extend the height of the content, thereby triggering the scrolling. When content becomes longer than the predefined max-height of modal, content will be cropped and scrollable within the modal.
-          <br><br><br><br><br><br><br><br><br><br><br><br>
-          Just like that.
+        <div class="modal-body text-center">
+          <input type="image" src="https://lendi.org/General/faculty_photos/santosh_cse_new.jpg"/>
+          <div class="meaning-box" id="meaning-box">
+            <table id="modalTable">
+              <tr>
+                <td style="text-align: right;"><h6>Name:</h6></td>
+                <td><span class="name" id="name">__Something__</span></td>
+              </tr>
+              <tr>
+                <td style="text-align: right;"><h6>ID:</h6></td>
+                <td><span class="ID" id="ID">__Something__</span></td>
+              </tr>
+              <tr>
+                <td style="text-align: right;"><h6>Ph.no:</h6></td>
+                <td><span class="phone" id="phone">__Something__</span></td>
+              </tr>
+              <tr>
+                <td style="text-align: right;"><h6>Department:</h6></td>
+                <td><span class="department" id="department">__Something__</span></td>
+              </tr>
+              <tr>
+                <td style="text-align: right;"><h6>Subject:</h6></td>
+                <td><span class="subject" id="subject">__Something__</span></td>
+              </tr>
+              <tr>
+                <td style="text-align: right;"><h6>Qualification:</h6></td>
+                <td><span class="qualification" id="qualification">__Something__</span></td>
+              </tr>
+            </table>
+          </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
